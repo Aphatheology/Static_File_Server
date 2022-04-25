@@ -1,0 +1,24 @@
+{
+  "name": "static_file_server",
+  "version": "1.0.0",
+  "description": "A nodejs static server by group 11",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aphatheology/Static_File_Server.git"
+  },
+  "author": "Group 11 Members",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aphatheology/Static_File_Server/issues"
+  },
+  "homepage": "https://github.com/Aphatheology/Static_File_Server#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
