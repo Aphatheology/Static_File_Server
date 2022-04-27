@@ -11,7 +11,7 @@ const server = http
     /* Get the url of each request */
     const urlPath = req.url;
 
-    if (urlPath === '/' || urlPath === '/home') {
+    if (urlPath === '/' || urlPath === '/home' || urlPath === '/index') {
       //index routing
       res.writeHead(200, { 'Content-Type': 'text/html' });
       fs.createReadStream(__dirname + '/pages/index.html', 'utf-8').pipe(res);
